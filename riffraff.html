@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <title>RiffRaff Splash Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/custom.js"></script>
+
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+
+
+  </head>
+  
+
+  <body>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <a href="#"> <img src="img/riffraff-logo-60px.png"/></a>
+          <ul class="nav pull-right">
+            <li id="earlyaccessbutton"><a>
+              <button type="button" class="btn btn-info" data-toggle="modal" data-target="#infoform">
+                <a href="http://eepurl.com/Ki1Tz" class="glyphicon glyphicon-user white"></i> Get Early Access
+              </button>
+            </a></li>
+          </ul>
+        </div>
+
+        <div id="modalInput" class="modal fade" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header grayeffect">
+                <button type="button" class="close" data-dismiss="modal">&times</button>
+                <h4>We are currently taking email signups for the RiffRaff waitlist!  To get on the waitlist for early access, please enter your email here.</h4>
+              </div>
+              <div class="modal-body">
+                <form role="form">
+                  <div class="form-group form-inline pull-right">
+                    <ul style="margin-top:-8px">
+                      <li id="email-input-dialog"style="display: inline-block; min-width:225px;"><input type="email" class="form-control" id="emailInputBox" placeholder="Enter email address"></li>
+                      <li style="display: inline-block;"><button type="submit" class="btn btn-success">Get on the waitlist</button></li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <div class="container pull-right">
+                <button type="button" class="btn btn-info" data-dismiss="modal">Not Now</button>
+              </div>
+              </div>
+            </div><!-- end modal content -->
+          </div><!-- end modal dialog -->
+        </div><!-- end modal -->
+    </div>
+    <!-- End of logo and nav bar -->
+
+
+    <!-- Info form modal popup -->
+    <div class="modal fade" id="infoform" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class ="modal-content">
+          <form class="form-horizontal">
+
+              <div class="modal-header grayeffect">
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                    <h4>Please take 10 seconds to give us a little information so we can best serve our waitlist</h4>
+              </div>
+
+              <div class="modal-body">
+
+                <div class="form-group">
+
+                    <label for="info-zip" class="col-lg-2 control-label">Zip Code</label>
+                    <div class="col-lg-10">
+                      <input type="text" class="form-control" id="info-zip" placeholder="5 digit zip code">
+                    </div>
+                </div>
+
+                <div class="form-group">
+
+                    <label for="info-type" class="col-lg-2 control-label">Do you want to be a member or provider?</label>
+                    <div class="col-lg-10">
+                      <input type="radio" class="form-control" value="Member">Member
+                      <input type="radio" class="form-control" value="Provider">Provider
+                    </div>
+                </div>
+
+                <div class="form-group">
+
+                    <label for="info-skill" class="col-lg-2 control-label">What area are you most interested in?</label>
+                    <div class="col-lg-10">
+                      DROPDOWN
+                    </div>
+                </div>
+
+              </div>
+              <div class="container pull-right">
+                <a class="btn btn-default" data-dismiss="modal">Not Now</a>
+                <a class="btn btn-default" data-dismiss="modal">Submit</a>
+              </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Image carousel -->
+    <div class="container">
+      <div id="slideshow" class="carousel slide" data-ride="carousel" style="height: 400px;">
+        
+        <ol class="carousel-indicators hide">
+          <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+          <li data-target="#slideshow" data-slide-to="1"></li>
+          <li data-target="#slideshow" data-slide-to="2"></li>
+          <li data-target="#slideshow" data-slide-to="3"></li>
+          <li data-target="#slideshow" data-slide-to="4"></li>
+        </ol>
+
+        <div class="carousel-inner" style="height: 400px;">
+          <div class="slide item active" data-slide-number="0" style="background:url(img/carousel/pictures/carouselslide1.png); height: 400px; background-repeat: no-repeat;">
+            <div class="container">
+            <div class="row">
+              <div class="col-xs-4 col-xs-offset-1 slide-1 text-left">
+              <!--
+              <img class="carousel-image" src="img/carousel/crowdtilt/carousel1.gif"> <!--Add our images here.  Full-size of window is 940x480px.  Images should be 1/3rd of the window, so about 300px wide -->
+                <p class="text-center"><h5>"<u>Cooking</u> has always been my <u>thing</u>.</h5>  <br>I love that RiffRaff lets me to make money from my passion in my spare time."</p>
+                <br>
+                <p class="slide-1-em text-center funfont">What's your thing?</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide item" data-slide-number="1" style="background:url(img/carousel/pictures/carouselslide4.png); height: 400px; background-repeat: no-repeat;">
+            <div class="container">
+            <div class="row">
+              <div class="col-xs-4 col-xs-offset-1 slide-2 text-left">
+                <p class="text-center"><h5>"Military veterans can earn a side income offering <u>personal</u> <u>training</u> skills.</h5><br>  RiffRaff provides a great option for Marines, like myself, to make some money as we work to transition into a new career after serving our country."</p>
+                <br>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide item" data-slide-number="2" style="background:url(img/carousel/pictures/carouselslide2.png); height: 400px; background-repeat: no-repeat;">
+            <div class="container">
+            <div class="row">
+              <div class="col-xs-5 col-xs-offset-1 slide-3 text-left">
+                <p class="text-center"><h5>"RiffRaff gave our group access to a great <u>artist</u></h5> <br>who helped us design and build our Burning Man camp.  It felt great to have someone with talent (and equipment) help us, and even better to support someone's passion."</p>
+                <br>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide item" data-slide-number="3" style="background:url(img/carousel/pictures/carouselslide3.png); height: 400px; background-repeat: no-repeat;">
+            <div class="container">
+            <div class="row">
+              <div class="col-xs-4 col-xs-offset-1 slide-4 text-left">
+                <p class="text-center"><h5>"I need someone I can <u>trust</u> to help me improve my <u>golf</u> game.</h5><br> With RiffRaff, I can use reviews and ratings to find someone to play 9 holes with and give me advice on the course.  Where else would I be able to find that?"</p>
+                <br>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide item" data-slide-number="4" style="background:url(img/carousel/pictures/carouselslide5.png); height: 400px; background-repeat: no-repeat;">
+            <div class="container">
+            <div class="row">
+              <div class="col-xs-4 col-xs-offset-1 slide-5 text-left">
+                <p class="text-center"><h5>"RiffRaff enabled me to find a passionate <u>runner</u></h5><br> who helped motivate a group of us to prepare for a 10K race.  The experience was fun and social, and made me enjoy running for the first time!"</p>
+                <br>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end carousel-inner-->
+
+        <a class="left carousel-control" href="#slideshow" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#slideshow" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div> <!--end carousel-->
+      <!--
+      <img src="..." alt="..." class="img-circle">
+      <img src="..." alt="..." class="img-circle">
+      <img src="..." alt="..." class="img-circle">
+      <img src="..." alt="..." class="img-circle">
+      <img src="..." alt="..." class="img-circle">
+    -->
+        <!-- thumb navigation carousel -->
+      <div class="col-md-12 center-block" id="slider-thumbs">
+          
+              <!-- thumb navigation carousel items -->
+            <ul class="list-inline">
+              <li> <a id="carousel-selector-0" class="non-selected selected">
+                <img src="img/profiles/profile0.jpg" class="img-responsive">
+              </a></li>
+              <li> <a id="carousel-selector-1" class="non-selected">
+                <img src="img/profiles/profile1.jpg" class="img-responsive">
+              </a></li>
+              <li> <a id="carousel-selector-2" class="non-selected">
+                <img src="img/profiles/profile2.jpg" class="img-responsive">
+              </a></li>
+              <li> <a id="carousel-selector-3" class="non-selected">
+                <img src="img/profiles/profile3.png" class="img-responsive">
+              </a></li>
+              <li> <a id="carousel-selector-4" class="non-selected">
+                <img src="img/profiles/profile4.jpg" class="img-responsive">
+              </a></li>
+            </ul>
+          
+      </div>
+    </div>
+    <!-- End of image carousel -->
+
+
+    
+
+
+    <!-- End of info form modal popup -->
+
+
+
+    <!-- Jumbotron and action link -->
+    <div class="jumbotron" id="mainjumbo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 mainmessage">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 col-xs-6 text-center lead funfont">
+                <!--tag line-->
+                  <p class="maintext">Make money doing</p>
+                  <p class="maintext">what you <strong id="tagline-love">LOVE</strong></p>
+                  <p class="maintext">to do at <strong id="tagline-riffraff">RiffRaff!</strong></p>
+              </div>
+              <div class="col-md-7 col-sm-7 col-xs-6">
+                <!--email form-->
+                <form role="form" action="http://riffraff.us3.list-manage.com/subscribe/post?u=8e30a7eb7070309dbc850dbb5&amp;id=e6d9e501b0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="form-group form-inline pull-right" >
+                    <ul>
+                      <li id="email-input"><input type="email" id="mce-EMAIL" class="form-control required email" name="EMAIL" placeholder="Enter email address" onsumbit="updateAfterEmail()"> </li>
+                      
+                      <li id="email-input-button"><button id="mc-embedded-subscribe" type="submit" class="btn btn-success">Get on the waitlist</button></li>
+                    </ul>
+                  </div>
+                </form>
+              <!---->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+<!-- -->
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6 benefits-header">
+            <h3 class="benefits-title">Providers</h3>
+            <ul class="benefits">
+              <li><p>Make money doing what you love to do or just have a knack for</p></li>
+              <li><p>Test the waters on a new potential career with no risk</p></li>
+              <li><p>Offer the service you love without the administrative hassle</p></li>
+              <li><p>All the money you earn is yours!  We don't take anything</p></li>
+            </ul>
+            
+          </div>
+          <div class="col-md-6 col-sm-6 benefits-header">
+            <h3 class="benefits-title">Members</h3>
+            <ul class="benefits">
+              <li><p>Access to unique services at a reasonable price</p></li>
+              <li><p>Ratings and reviews allow you to trust the quality of the services</p></li>
+              <li><p>Support talented local people trying to realize their passion</p></li>
+              <li><p>Connection to skilled people with similar interests to yours</p></li>
+            </ul>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-4">
+            <blockquote class="pull-right"><p>"RiffRaff creates a more connected local community where people's talents aren't wasted.  With so many ways to SPEND money doing the things we love to do, it's great to be able to have more ways to MAKE money doing what we are passionate about and to be able to share it with others."</p><small>Steve Vargas, CEO RiffRaff</small></blockquote>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end of jumbotron -->
+
+
+    <!-- 3 columns showing benefits -->
+    <div class="container">
+      
+    </div>
+
+
+    <!-- end of 3 heading columns -->
+
+
+<!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize --
+<br>
+<br>
+<br>
+<p>Follow this company!</p>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b5135128650be7"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent', 
+    'follow' : {
+      'services' : [
+        {'service': 'facebook', 'id': 'riffraffme'},
+        {'service': 'twitter', 'id': 'riffraffme'},
+        {'service': 'linkedin', 'id': 'riffraff-community-inc-', 'usertype':'company'},
+        {'service': 'google_follow', 'id': '101807007284504095276'}
+      ]
+    },
+    'offset': [
+      {'top' : '200px'}
+     ]
+  });
+</script>
+<br>
+<br>
+<br>
+<!-- AddThis Smart Layers END -->
+
+<!-- AddThis Follow BEGIN --
+
+<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b5135128650be7"></script>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="addthis_toolbox addthis_32x32_style addthis_default_style pull-right" style="width:150px;">
+        <p class="funfont">Follow RiffRaff:</p>
+        <a class="addthis_button_facebook_follow" addthis:userid="riffraffme"></a>
+
+        <a class="addthis_button_twitter_follow" addthis:userid="riffraffme"></a>
+
+        <a class="addthis_button_google_follow" addthis:userid="101807007284504095276"></a>
+
+        <a class="addthis_button_linkedin_follow" addthis:userid="riffraff-community-inc-" addthis:usertype="company"></a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- AddThis Follow END -->
+
+
+
+    <!-- Footer menu and social media links -->
+  <footer class="navbar-nav navbar">
+    <div class="container" class="addthis_toolbox addthis_32x32_style addthis_default_style">
+        <ul class="nav navbar-nav">
+          <li><a class="active">&copy; 2013 RiffRaff Community, Inc.</a></li>
+          <li class="hide"><a href="#">Blog</a></li>
+        </ul>
+      </div>
+  </footer>
+
+ 
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+    
+
+
+
+
+  </body>
+</html>
